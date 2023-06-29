@@ -1,0 +1,58 @@
+.container {
+  background-color: #150b3e;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.image-icon {
+  background-color: #c7d2fe;
+  font-size: 22px;
+  border-radius: 45px;
+  text-align: left;
+  padding: 40px;
+  align-self: flex-start;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  color: #c7d2fe;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #382f5a;
+}
+.balance-number {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #c7d2fe;
+}
+.balance-rs {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #382f5a;
+}
+.withdraw {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #c7d2fe;
+}
+.choose-sum {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #382f5a;
+}
+.column-container {
+  display: flex;
+  flex-direction: column;
+}
